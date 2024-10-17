@@ -11,6 +11,15 @@ class Page2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('Details'),
+        leading: IconButton(
+          icon: Icon(Icons.arrow_back),
+          onPressed: () {
+            Navigator.pop(context); // Kembali ke halaman sebelumnya
+          },
+        ),
+      ),
       body: Stack(
         alignment: Alignment.center,
         children: <Widget>[
@@ -57,7 +66,7 @@ class Page2 extends StatelessWidget {
                         ),
                         SizedBox(height: 10),
                         Text(
-                          'Hello, my name is Enola Giveary. I am a student at Wikrama Vocational High School and majoring in Software Enginering and Game Development.',
+                          'Hello, my name is Enola Giveary. I am a student at Wikrama Vocational High School and majoring in Software Engineering and Game Development.',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 16),
                         ),
@@ -79,7 +88,7 @@ class Page2 extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          'Soft Skill',
+                          'History',
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
@@ -87,7 +96,7 @@ class Page2 extends StatelessWidget {
                         ),
                         SizedBox(height: 5),
                         Text(
-                          'I graduated from SD Negeri 04 Karanggan in 2019 and then continued to Green Bhakti Insani Junior High School. Now, I am studying at SMK Wikrama Bogor, majoring in Software and Game Development',
+                          'I graduated from SD Negeri 04 Karanggan in 2019 and then continued to Green Bhakti Insani Junior High School. Now, I am studying at SMK Wikrama Bogor, majoring in Software and Game Development.',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 16),
                         ),
@@ -96,7 +105,7 @@ class Page2 extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 20),
-                // Kartu kedua
+                // Kartu ketiga
                 Card(
                   elevation: 4,
                   shape: RoundedRectangleBorder(
