@@ -29,7 +29,7 @@ class Page2 extends StatelessWidget {
             height: MediaQuery.of(context).size.height,
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage("images/background.jpeg"),
+                image: AssetImage("images/bg_pink.jpeg"),
                 fit: BoxFit.cover,
               ),
             ),
@@ -41,7 +41,7 @@ class Page2 extends StatelessWidget {
               children: <Widget>[
                 CircleAvatar(
                   radius: 80.0,
-                  backgroundImage: AssetImage('images/fotoprofil.jpg'),
+                  backgroundImage: AssetImage('images/profil.jpg'),
                 ),
                 SizedBox(height: 20),
                 // Kartu pertama
@@ -66,7 +66,7 @@ class Page2 extends StatelessWidget {
                         ),
                         SizedBox(height: 10),
                         Text(
-                          'Hello, my name is Enola Giveary. I am a student at Wikrama Vocational High School and majoring in Software Engineering and Game Development.',
+                          'Hi, my name is Lisma Salmaa Setiawan. I am a student at SMK Wikrama Bogor majoring in software and game development .',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 16),
                         ),
@@ -88,7 +88,7 @@ class Page2 extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Text(
-                          'History',
+                          'Education',
                           style: TextStyle(
                             fontSize: 20,
                             fontWeight: FontWeight.bold,
@@ -96,7 +96,7 @@ class Page2 extends StatelessWidget {
                         ),
                         SizedBox(height: 5),
                         Text(
-                          'I graduated from SD Negeri 04 Karanggan in 2019 and then continued to Green Bhakti Insani Junior High School. Now, I am studying at SMK Wikrama Bogor, majoring in Software and Game Development.',
+                          'In 2019 I graduated from SD Gadog 01 then continued my education at SMP Negeri 01 Megamendung and graduated in 2022. and currently I am studying at SMK Wikrama Bogor majoring in software and game development.',
                           textAlign: TextAlign.center,
                           style: TextStyle(fontSize: 16),
                         ),

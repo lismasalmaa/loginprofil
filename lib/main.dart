@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Login Page',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.pink,
       ),
       home: LoginPage(),
       debugShowCheckedModeBanner: false,
@@ -68,7 +68,7 @@ class _LoginPageState extends State<LoginPage> {
           Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('images/background.jpeg'),
+                image: AssetImage('images/bg_pink.jpeg'),
                 fit: BoxFit.cover,
               ),
             ),
@@ -184,7 +184,7 @@ class _LoginPageState extends State<LoginPage> {
                         style: ElevatedButton.styleFrom(
                           padding: EdgeInsets.symmetric(
                               horizontal: 40, vertical: 15),
-                          primary: Colors.blue[700],
+                          primary: Colors.pink[700],
                           onPrimary: Colors.white,
                           textStyle: TextStyle(fontSize: 18),
                           shape: RoundedRectangleBorder(

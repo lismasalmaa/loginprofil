@@ -23,7 +23,7 @@ class Page1 extends StatelessWidget {
         height: MediaQuery.of(context).size.height,
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("images/background.jpeg"),
+            image: AssetImage("images/bg_pink.jpeg"),
             fit: BoxFit.cover,
           ),
         ),
@@ -39,7 +39,7 @@ class Page1 extends StatelessWidget {
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(15.0),
                 ),
-                color: Color.fromRGBO(138, 193, 252, 1),
+                color: Color.fromRGBO(218, 125, 154, 1),
                 child: Container(
                   width: 500,
                   height: 500,
@@ -48,7 +48,7 @@ class Page1 extends StatelessWidget {
                     children: <Widget>[
                       CircleAvatar(
                         radius: 70.0,
-                        backgroundImage: AssetImage('images/fotoprofil.jpg'),
+                        backgroundImage: AssetImage('images/profil.jpg'),
                       ),
                       SizedBox(height: 10),
                       Text(
